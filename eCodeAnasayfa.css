@@ -1,0 +1,344 @@
+.govde{
+    margin: 8% !important;
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    background-image: url(bg2.png);
+    background-size: cover;
+}
+
+.urun1{
+    width: 22% !important;
+    margin: 5% !important;
+    margin-top: 0 !important;
+
+}
+.urun1:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    border:5px solid black !important;
+    border-radius: 10px !important;
+    border-style: dotted !important;
+    
+}
+
+
+.urun2{
+    width: 22% !important;
+    margin: 5% !important;
+    margin-top: 0 !important;
+
+}
+.urun2:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    border:5px solid black !important;
+    border-radius: 10px !important;
+    border-style: dotted !important;
+
+}
+
+.urun3{
+    width: 22% !important;
+    margin: 5% !important;
+    margin-top: 0 !important;
+
+}
+.urun3:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    border:5px solid black !important;
+    border-radius: 10px !important;
+    border-style: dotted !important;
+
+}
+.p1{
+    background-color: rgba(0, 0, 255, 0.904) !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-family: 'Roboto Mono', monospace !important;
+    font-size: 20px !important;
+    color: black !important;
+    
+}
+.p1:hover{
+    font-style:italic !important;
+    transition: 480ms !important;
+    transform: scale(1.03) !important;
+    background-color: rgba(255, 0, 0, 0.705) !important;
+}
+.a1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute ;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 20px;
+    font-size: 20px ;
+    left: 25% ;
+    text-decoration: none !important;
+}
+.a1:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.a2{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 65.5%;
+    text-decoration: none !important;
+}
+.a2:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 45.5%;
+    text-decoration: none !important;
+}
+.a3:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507) !important;
+    width: 95% !important;
+    height: 80px !important;
+    position: absolute !important;
+    top: 1% !important;
+    left: 2.3% !important;
+    border-radius: 15px !important;
+}
+.mBack:hover{
+    transition: 480ms !important;
+    background-color: green !important;
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .govde{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+    }
+    .urun1{
+        position: absolute;
+        top: 35%;
+        scale: 300%;
+        left: 33%;
+    }
+    .urun2{
+        position: absolute;
+        top: 85%;
+        scale: 300%;
+        left: 33%;
+    }
+
+    .urun3{
+        position: absolute;
+        top: 135%;
+        scale: 300%;
+        left: 33%;
+        margin-bottom: 3%;
+    }
+    .urun1:hover{
+
+        transition: 480ms;
+
+    }
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 73%;
+        text-decoration: none;
+        
+    }
+    .a3{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 45.5%;
+        text-decoration: none;
+        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .govde{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+    }
+    .urun1{
+        position: absolute;
+        top: 45%;
+        scale: 300%;
+        left: 33%;
+    }
+    .urun2{
+        position: absolute;
+        top: 115%;
+        scale: 300%;
+        left: 33%;
+    }
+
+    .urun3{
+        position: absolute;
+        top: 200%;
+        scale: 300%;
+        left: 33%;
+        margin-bottom: 3%;
+    }
+    .urun1:hover{
+
+        transition: 480ms;
+
+    }
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 73%;
+        text-decoration: none;
+        
+    }
+    .a3{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 45.5%;
+        text-decoration: none;
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 10px ;
+        left: 73%;
+        text-decoration: none;
+        
+    }
+    .a3{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 10px ;
+        left: 44%;
+        text-decoration: none;
+        
+    }
+}

@@ -1,0 +1,300 @@
+.b{
+    margin: 8% !important;
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    background-image: url(bg2.png);
+}
+
+.dp1{
+    scale: 90%;
+    position: absolute;
+    left: 1%;
+}
+
+.sbGuvenlikBilgi{
+    
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    position: absolute;
+    left: 55%;
+    margin-right: 2% !important;
+    margin-bottom: 0 !important;
+    top: 35%;
+    font-size: 25px;
+    
+}
+.a1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute ;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 20px;
+    font-size: 20px ;
+    left: 25% ;
+    text-decoration: none !important;
+}
+.a1:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.a2{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 46.5%;
+    text-decoration: none !important;
+}
+.a2:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 65.5%;
+    text-decoration: none !important;
+}
+.a3:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507) !important;
+    width: 95% !important;
+    height: 80px !important;
+    position: absolute !important;
+    top: 1% !important;
+    left: 2.3% !important;
+    border-radius: 15px !important;
+}
+.mBack:hover{
+    transition: 480ms !important;
+    background-color: green !important;
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .b{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+    }
+    
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 65%;
+        text-decoration: none;
+    }
+    .dp1{
+        scale: 45% !important;
+        position: absolute;
+        left: -56% !important;
+        top: -3%;
+    }
+    .sbGuvenlikBilgi{
+    
+        color: white !important;
+        font-family:'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        position: absolute;
+        left: 4%;
+        right: 2%;
+        margin-right: 2% !important;
+        margin-bottom: 0 !important;
+        top: 50%;
+        font-size: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .b{
+        margin: 8% !important;
+        background-color: rgba(0, 0, 0, 0.226) !important;
+        background-image: none;
+    }
+    .a1{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 5%;
+        text-decoration: none;
+    }
+    .a2{
+        color: white ;
+        font-style: normal ;
+        position: absolute ;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace ;
+        background-color: #FCA311 ;
+        padding: 1%;
+        border-radius: 18px;
+        font-size: 15px ;
+        left: 73%;
+        text-decoration: none;
+    }
+    .a3{
+        text-align: center;
+        color: white;
+        font-style: normal;
+        position: absolute;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 49%;
+        text-decoration: none;
+    }
+    .dp1{
+        scale: 45% ;
+        position: absolute;
+        left: -55% ;
+        top: -3%;
+    }
+    .sbGuvenlikBilgi{
+    
+        color: white !important;
+        font-family:'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        position: absolute;
+        left: 4%;
+        right: 2%;
+        margin-right: 2% !important;
+        margin-bottom: 0 !important;
+        top: 50%;
+        font-size: 25px;
+        
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .dp1{
+        scale: 33% !important;
+        position: absolute!important;
+        left: -75% !important;
+        top: -3%!important;
+    }
+    .a1{
+        text-align: center!important;
+        color: white!important;
+        font-style: normal!important;
+        position: absolute!important;
+        top: 3%!important;
+        font-family: 'Roboto Mono', monospace!important;
+        background-color: #FCA311!important;
+        padding: 1%!important;
+        border-radius: 15px!important;
+        font-size: 10px!important;
+        left: 8%!important;
+        text-decoration: none!important;
+    }
+    .a2{
+        color: white !important;
+        font-style: normal!important ;
+        position: absolute !important;
+        top: 3%!important;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1%!important;
+        border-radius: 18px!important;
+        font-size: 10px !important;
+        left: 73%!important;
+        text-decoration: none!important;
+    }
+    .a3{
+        text-align: center!important;
+        color: white!important;
+        font-style: normal!important;
+        position: absolute!important;
+        top: 3%;
+        font-family: 'Roboto Mono', monospace!important;
+        background-color: #FCA311!important;
+        padding: 1%!important;
+        border-radius: 15px!important;
+        font-size: 10px!important;
+        left: 47%!important;
+        text-decoration: none!important;
+    }   
+    .sbGuvenlikBilgi{
+    
+        color: white !important;
+        font-family:'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        position: absolute;
+        left: 4%;
+        right: 2%;
+        margin-right: 2% !important;
+        margin-bottom: 0 !important;
+        top: 70%;
+        font-size: 20px;
+        
+    }
+
+}

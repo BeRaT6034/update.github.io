@@ -1,0 +1,400 @@
+.b{
+    margin: 8%;
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    background-image: url(bg2.png);
+
+}
+.urunInfor{
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    position: absolute;
+    left: 35%;
+    margin-right: 2% !important;
+    margin-bottom: 0 !important;
+    top: 12%;
+    font-size: 25px;
+}
+.urunName{
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    position: absolute;
+    padding: 1% !important;
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+    left: 13%;
+    top: 86%;
+
+}
+.urun2{
+    width: 27%;
+    margin: 5% ;
+    margin-left: 0%;
+    margin-top: 0;
+
+}
+
+.a1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 18%;
+    text-decoration: none !important;
+}
+.a1:hover{
+    font-style: italic!important;
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+
+}
+
+.a2{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 48%;
+    text-decoration: none !important;
+}
+.a2:hover{
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic!important;
+
+}
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 68%;
+    text-decoration: none !important;
+}
+.a3:hover{
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic!important;
+
+}
+.a4{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 58%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 62%;
+    text-decoration: none !important;
+}
+.a4:hover{
+    font-style: italic !important;
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    
+
+}
+.a5{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 32%;
+    text-decoration: none !important;
+}
+.a5:hover{
+    font-style: italic !important;
+    background-color: green !important;
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    
+
+}
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 1%;
+    left: 2.3%;
+    border-radius: 15px;
+}
+.mBack:hover{
+    transition: 480ms;
+    background-color: green;
+
+}
+
+@media screen and (max-width: 425px){
+
+    .b{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+        
+
+    }
+
+    .urunInfor{
+        color: white;
+        font-family:'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        position: absolute;
+        left: 5%;
+        right: 4%;
+        top: 120%;
+        font-size: 20px;
+    }
+    .urun2{
+        width: 70%;
+        position: absolute; 
+        top: 18%;
+        left: 15%;
+    
+    }
+    .urunName{
+        color: white;
+        font-family:'Roboto Mono', monospace ;
+        background-color: #FCA311;
+        position: absolute;
+        padding: 1% ;
+        font-size: 25px;
+        width: 30%;
+        text-align: center;
+        left: 35%;
+        top: 80%;
+    
+    }
+
+    .a1{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 5%;
+    }
+    .a1:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+
+    .a2{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 45% !important;
+    }
+    .a2:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+    .a3{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 78% !important;
+    }
+    .a3:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+
+    .a5{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 23%;
+    }
+
+    .a4{
+        color: white !important;
+        font-style: normal !important;
+        position: absolute;
+        top: 58%;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        border-radius: 15px !important;
+        font-size: 20px;
+        left: 62%;
+        text-decoration: none !important;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+
+    .b{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+        
+
+    }
+
+    .urunInfor{
+        color: white;
+        font-family:'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        position: absolute;
+        left: 5%;
+        right: 4%;
+        top: 120%;
+        font-size: 20px;
+    }
+    .urun2{
+        width: 70%;
+        position: absolute; 
+        top: 18%;
+        left: 15%;
+    
+    }
+    .urunName{
+        color: white;
+        font-family:'Roboto Mono', monospace ;
+        background-color: #FCA311;
+        position: absolute;
+        padding: 1% ;
+        font-size: 25px;
+        width: 30%;
+        text-align: center;
+        left: 35%;
+        top: 80%;
+    
+    }
+
+    .a1{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 5%;
+    }
+    .a1:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+
+    .a2{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 45% !important;
+    }
+    .a2:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+    .a3{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 78% !important;
+    }
+    .a3:hover{
+
+        transition: 480ms;
+        transform: scale(1.1);
+        background-color: green;
+        font-style: italic;
+    
+    }
+
+    .a5{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 10px;
+        left: 23%;
+    }
+
+    .a4{
+        color: white !important;
+        font-style: normal !important;
+        position: absolute;
+        top: 58%;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        border-radius: 15px !important;
+        font-size: 20px;
+        left: 62%;
+        text-decoration: none !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .a4{
+        color: white !important;
+        font-style: normal !important;
+        position: absolute;
+        top: 190%;
+        font-family: 'Roboto Mono', monospace !important;
+        background-color: #FCA311 !important;
+        padding: 1% !important;
+        border-radius: 15px !important;
+        font-size: 20px;
+        left: 38%;
+        text-decoration: none !important;
+    }
+}

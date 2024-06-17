@@ -1,0 +1,220 @@
+.b{
+    margin: 8% !important;
+    background-color:rgba(0, 0, 0, 0.263);
+    background-image: url(bg2.png);
+
+}
+.h1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 23%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #fca211b3 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 46%;
+    text-decoration: none !important;
+}
+.p1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 40%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #fca211b3 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 33.6%;
+    text-decoration: none !important;
+    width: 30%;
+    border: 5px solid blue !important;
+    border-style: dotted !important;
+}
+.a1{
+    color: white;
+    font-style: normal;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FCA311;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 20%;
+    text-decoration: none;
+}
+.a1:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+
+.a2{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 70%;
+    text-decoration: none !important;
+}
+.a2:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute !important;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1%;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 45.5%;
+    text-decoration: none !important;
+}
+.a3:hover{
+
+    transition: 480ms !important;
+    transform: scale(1.1) !important;
+    background-color: green !important;
+    font-style: italic !important;
+
+}
+
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 1%;
+    left: 2.3%;
+    border-radius: 15px;
+}
+.mBack:hover{
+    transition: 480ms;
+    background-color: green;
+
+}
+
+@media screen and (max-width:425px){
+    .b{
+        background-image: none;
+        margin: 8%;
+        background-color: rgba(0, 0, 0, 0.263);
+    
+    }
+    .h1{
+        position: absolute;
+        top: 23%;
+        font-size: 20px;
+        left: 35%;
+    }
+
+    .p1{
+        top: 33%;
+        font-size: 15px;
+        left: 13%;
+        width: 70%;
+
+    }
+    .a3{
+        top: 3%;
+        font-size: 15px;
+        left: 28.5%;
+
+    }
+    .a2{
+        top: 3%;
+        font-size: 15px;
+        left: 55% !important;
+
+    }
+
+    .a1{
+        top: 3%;
+        font-size: 15px;
+        left: 7% !important;
+    }
+    
+}
+
+@media screen and (max-width: 430px){
+    .b{
+        background-image: none;
+        margin: 8%;
+        background-color: rgba(0, 0, 0, 0.263);
+    
+    }
+    .h1{
+        position: absolute;
+        top: 23%;
+        font-size: 20px;
+        left: 35%;
+    }
+
+    .p1{
+        top: 33%;
+        font-size: 15px;
+        left: 13%;
+        width: 70%;
+
+    }
+    .a3{
+        top: 3%;
+        font-size: 15px;
+        left: 28.5%;
+
+    }
+    .a2{
+        top: 3%;
+        font-size: 15px;
+        left: 55% !important;
+
+    }
+
+    .a1{
+        top: 3%;
+        font-size: 15px;
+        left: 7% !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .a3{
+        top: 3%;
+        font-size: 10px;
+        left: 33%;
+
+    }
+    .a2{
+        top: 3%;
+        font-size: 10px;
+        left: 64% !important;
+
+    }
+
+    .a1{
+        top: 3%;
+        font-size: 10px;
+        left: 7% !important;
+    }
+    
+}
